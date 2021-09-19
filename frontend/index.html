@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours Minutes Seconds</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/default.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Hours Minutes Seconds</h1>
+        <div class="row">
+            <div class="cell">HORUS</div>
+            <div class="cell">MINUTES</div>
+            <div class="cell">SECONDS</div>
+        </div>
+        <div class="row">
+            <div id="hs" class="cell">0</div>
+            <div id="ms" class="cell">0</div>
+            <div id="ss" class="cell">0</div>
+        </div>
+        <div id="hms">
+            <div class="row">
+                <div class="cell"><input class="hour" type="text" value="0"></div>
+                <div class="cell"><input class="minute" type="text" value="0"></div>
+                <div class="cell"><input class="second" type="text" value="0"></div>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="clear">CLEAR</button>
+            <button id="inc">INCREASE ROWS</button>
+            <button id="dec">DECREASE ROWS</button>
+            <button id="calc">CALCULATE</button>
+        </div>
+    </div>
+    <script src="./js/hms.js"></script>
+</body>
+</html>

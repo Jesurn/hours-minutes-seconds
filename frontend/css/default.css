@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #515f7a;
+    color: #fff;
+}
+
+.container {
+    max-width: 450px;
+    min-height: 150px;
+    margin: 35px auto;
+    padding: 15px;
+    background-color: #8290ac;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.cell {
+    width: 100px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    color: #666;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+input[type=text]:focus {
+    outline: 0;
+    color: #222;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #666;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #eee;
+    color: #444;
+}
+
+button:active {
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+button + button {
+    margin-top: 15px;
+}

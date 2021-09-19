@@ -1,0 +1,16 @@
+{
+  "name": "hours-minutes-seconds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "nodemon backend/index"
+  },
+  "keywords": [],
+  "author": "Jensen Russell <jesurn.gaming@hotmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
